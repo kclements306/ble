@@ -1,0 +1,241 @@
+[  +82 ms] executing: [/Users/kenclements/tools/flutter/] git -c log.showSignature=false log -n 1 --pretty=format:%H
+[  +43 ms] Exit code 0 from: git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] c5a4b4029c0798f37c4a39b479d7cb75daa7b05c
+[   +2 ms] executing: [/Users/kenclements/tools/flutter/] git tag --points-at c5a4b4029c0798f37c4a39b479d7cb75daa7b05c
+[  +67 ms] Exit code 0 from: git tag --points-at c5a4b4029c0798f37c4a39b479d7cb75daa7b05c
+[        ] 2.0.1
+[  +46 ms] executing: [/Users/kenclements/tools/flutter/] git rev-parse --abbrev-ref --symbolic @{u}
+[   +6 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
+[        ] origin/stable
+[        ] executing: [/Users/kenclements/tools/flutter/] git ls-remote --get-url origin
+[   +6 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] https://github.com/flutter/flutter.git
+[  +46 ms] executing: [/Users/kenclements/tools/flutter/] git rev-parse --abbrev-ref HEAD
+[   +6 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] stable
+[   +5 ms] executing: sw_vers -productName
+[  +14 ms] Exit code 0 from: sw_vers -productName
+[        ] macOS
+[        ] executing: sw_vers -productVersion
+[  +12 ms] Exit code 0 from: sw_vers -productVersion
+[        ] 11.2.3
+[        ] executing: sw_vers -buildVersion
+[  +13 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] 20D91
+[   +6 ms] executing: sysctl hw.optional.arm64
+[   +4 ms] Exit code 1 from: sysctl hw.optional.arm64
+[        ] sysctl: unknown oid 'hw.optional.arm64'
+[  +53 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +8 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +42 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +51 ms] Skipping pub get: version match.
+[  +26 ms] Found plugin connectivity at /Users/kenclements/tools/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-3.0.2/
+[   +6 ms] Found plugin connectivity_macos at /Users/kenclements/tools/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_macos-0.2.0/
+[  +12 ms] Found plugin flutter_blue at /Users/kenclements/tools/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_blue-0.8.0/
+[ +108 ms] Found plugin connectivity at /Users/kenclements/tools/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-3.0.2/
+[   +3 ms] Found plugin connectivity_macos at /Users/kenclements/tools/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_macos-0.2.0/
+[   +7 ms] Found plugin flutter_blue at /Users/kenclements/tools/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_blue-0.8.0/
+[  +22 ms] Generating /Users/kenclements/Flutter/ble/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[  +25 ms] executing: sysctl hw.optional.arm64
+[   +4 ms] Exit code 1 from: sysctl hw.optional.arm64
+[        ] sysctl: unknown oid 'hw.optional.arm64'
+[        ] executing: xcrun xcodebuild -version
+[+1016 ms] Exit code 0 from: xcrun xcodebuild -version
+[        ] Xcode 12.4
+           Build version 12D4e
+[  +45 ms] Building without sound null safety
+[        ] For more information see https://dart.dev/null-safety/unsound-null-safety
+[  +18 ms] Running Gradle task 'assembleRelease'...
+[   +3 ms] Using gradle from /Users/kenclements/Flutter/ble/android/gradlew.
+[        ] /Users/kenclements/Flutter/ble/android/gradlew mode: 33261 rwxr-xr-x.
+[   +9 ms] executing: /usr/bin/plutil -convert json -o - /Applications/Android Studio.app/Contents/Info.plist
+[  +10 ms] Exit code 0 from: /usr/bin/plutil -convert json -o - /Applications/Android Studio.app/Contents/Info.plist
+[        ] {"CFBundleName":"Android Studio","JVMOptions":{"ClassPath":"$APP_PACKAGE\/Contents\/lib\/bootstrap.jar:$APP_PACKAGE\/Contents\/lib\/extensions.jar:$APP_PACKAGE\/Contents\/lib\/util.jar:$APP_PACKAGE\/Contents\/lib\/jdom.jar:$APP_PACKAGE\/Contents\/lib\/log4j.jar:$APP_PACKAGE\/Contents\/lib\/trove4j.jar:$APP_PACKAGE\/Contents\/lib\/jna.jar","JVMVersion":"1.8*,1.8+","MainClass":"com.intellij.idea.Main","Properties":{"idea.paths.selector":"AndroidStudio4.1","idea.executable":"studio","idea.platform.prefix":"AndroidStudio","idea.vendor.name":"Google","idea.home.path":"$APP_PACKAGE\/Contents"}},"NSDesktopFolderUsageDescription":"An application in Android Studio requests access to the user's Desktop folder.","LSArchitecturePriority":["x86_64"],"CFBundleVersion":"AI-201.8743.12.41.7042882","CFBundleDevelopmentRegion":"English","NSCameraUsageDescription":"An application in Android Studio requests access to the device's camera.","CFBundleDocumentTypes":[{"CFBundleTypeName":"Android Studio Project File","CFBundleTypeExtensions":["ipr"],"CFBundleTypeRole":"Editor","CFBundleTypeIconFile":"studio.icns"},{"CFBundleTypeName":"All documents","CFBundleTypeExtensions":["*"],"CFBundleTypeOSTypes":["****"],"CFBundleTypeRole":"Editor","LSTypeIsPackage":false}],"NSSupportsAutomaticGraphicsSwitching":true,"CFBundlePackageType":"APPL","CFBundleIconFile":"studio.icns","NSHighResolutionCapable":true,"CFBundleShortVersionString":"4.1","NSMicrophoneUsageDescription":"An application in Android Studio requests access to the device's microphone.","CFBundleInfoDictionaryVersion":"6.0","CFBundleExecutable":"studio","NSLocationUsageDescription":"An application in Android Studio requests access to the user's location information.","LSRequiresNativeExecution":"YES","CFBundleURLTypes":[{"CFBundleTypeRole":"Editor","CFBundleURLName":"Stacktrace","CFBundleURLSchemes":["idea"]}],"CFBundleIdentifier":"com.google.android.studio","LSApplicationCategoryType":"public.app-category.developer-tools","CFBundleSignature":"????","LSMinimumSystemVersion":"10.8","NSDocumentsFolderUsageDescription":"An application in Android Studio requests access to the user's Documents folder.","NSDownloadsFolderUsageDescription":"An application in Android Studio requests access to the user's Downloads folder.","NSNetworkVolumesUsageDescription":"An application in Android Studio requests access to files on a network volume.","CFBundleGetInfoString":"Android Studio 4.1, build AI-201.8743.12.41.7042882. Copyright JetBrains s.r.o., (c) 2000-2020","NSRemovableVolumesUsageDescription":"An application in Android Studio requests access to files on a removable volume."}
+[   +3 ms] executing: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java -version
+[  +74 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java -version
+[        ] openjdk version "1.8.0_242-release"
+           OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6915495)
+           OpenJDK 64-Bit Server VM (build 25.242-b3-6915495, mixed mode)
+[   +2 ms] executing: [/Users/kenclements/Flutter/ble/android/] /Users/kenclements/Flutter/ble/android/gradlew -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib/main.dart -Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+[+2629 ms] > Task :app:compileFlutterBuildRelease
+[        ] [  +78 ms] executing: [/Users/kenclements/tools/flutter/] git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] [  +36 ms] Exit code 0 from: git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] [   +2 ms] c5a4b4029c0798f37c4a39b479d7cb75daa7b05c
+[        ] [        ] executing: [/Users/kenclements/tools/flutter/] git tag --points-at c5a4b4029c0798f37c4a39b479d7cb75daa7b05c
+[        ] [  +16 ms] Exit code 0 from: git tag --points-at c5a4b4029c0798f37c4a39b479d7cb75daa7b05c
+[        ] [        ] 2.0.1
+[        ] [  +44 ms] executing: [/Users/kenclements/tools/flutter/] git rev-parse --abbrev-ref --symbolic @{u}
+[        ] [   +6 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
+[        ] [        ] origin/stable
+[        ] [        ] executing: [/Users/kenclements/tools/flutter/] git ls-remote --get-url origin
+[        ] [   +5 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] [        ] https://github.com/flutter/flutter.git
+[        ] [  +43 ms] executing: [/Users/kenclements/tools/flutter/] git rev-parse --abbrev-ref HEAD
+[        ] [   +6 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] [        ] stable
+[        ] [  +52 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [   +2 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [  +47 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +63 ms] Initializing file store
+[        ] [   +6 ms] Done initializing file store
+[        ] [  +71 ms] Skipping target: gen_localizations
+[        ] [ +493 ms] Skipping target: kernel_snapshot
+[        ] [  +28 ms] Skipping target: android_aot_release_android-arm
+[        ] [  +23 ms] Skipping target: aot_android_asset_bundle
+[        ] [  +23 ms] Skipping target: android_aot_release_android-arm64
+[        ] [  +22 ms] Skipping target: android_aot_release_android-x64
+[        ] [  +24 ms] Skipping target: android_aot_bundle_release_android-arm
+[        ] [  +23 ms] Skipping target: android_aot_bundle_release_android-arm64
+[        ] [  +23 ms] Skipping target: android_aot_bundle_release_android-x64
+[        ] [        ] Skipping target: _composite
+[        ] [        ] Persisting file store
+[        ] [   +8 ms] Done persisting file store
+[        ] [   +5 ms] build succeeded.
+[        ] [  +11 ms] "flutter assemble" took 906ms.
+[        ] [   +4 ms] ensureAnalyticsSent: 0ms
+[        ] [   +1 ms] Running shutdown hooks
+[        ] [        ] Shutdown hooks complete
+[        ] [   +3 ms] exiting with code 0
+[        ] > Task :app:packLibsflutterBuildRelease UP-TO-DATE
+[        ] > Task :app:preBuild UP-TO-DATE
+[        ] > Task :app:extractProguardFiles UP-TO-DATE
+[        ] > Task :app:preReleaseBuild UP-TO-DATE
+[        ] > Task :connectivity:preBuild UP-TO-DATE
+[        ] > Task :connectivity:preReleaseBuild UP-TO-DATE
+[        ] > Task :connectivity:compileReleaseAidl NO-SOURCE
+[        ] > Task :flutter_blue:preBuild UP-TO-DATE
+[        ] > Task :flutter_blue:preReleaseBuild UP-TO-DATE
+[        ] > Task :flutter_blue:compileReleaseAidl NO-SOURCE
+[        ] > Task :app:compileReleaseAidl NO-SOURCE
+[        ] > Task :connectivity:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :flutter_blue:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :app:compileReleaseRenderscript NO-SOURCE
+[        ] > Task :app:generateReleaseBuildConfig UP-TO-DATE
+[        ] > Task :connectivity:writeReleaseAarMetadata UP-TO-DATE
+[        ] > Task :flutter_blue:writeReleaseAarMetadata UP-TO-DATE
+[        ] > Task :app:checkReleaseAarMetadata UP-TO-DATE
+[        ] > Task :app:cleanMergeReleaseAssets
+[        ] > Task :app:mergeReleaseShaders UP-TO-DATE
+[        ] > Task :app:compileReleaseShaders NO-SOURCE
+[        ] > Task :app:generateReleaseAssets UP-TO-DATE
+[        ] > Task :connectivity:mergeReleaseShaders UP-TO-DATE
+[        ] > Task :connectivity:compileReleaseShaders NO-SOURCE
+[        ] > Task :connectivity:generateReleaseAssets UP-TO-DATE
+[        ] > Task :connectivity:packageReleaseAssets UP-TO-DATE
+[        ] > Task :flutter_blue:mergeReleaseShaders UP-TO-DATE
+[        ] > Task :flutter_blue:compileReleaseShaders NO-SOURCE
+[        ] > Task :flutter_blue:generateReleaseAssets UP-TO-DATE
+[        ] > Task :flutter_blue:packageReleaseAssets UP-TO-DATE
+[        ] > Task :app:mergeReleaseAssets
+[        ] > Task :app:copyFlutterAssetsRelease
+[        ] > Task :app:generateReleaseResValues UP-TO-DATE
+[        ] > Task :app:generateReleaseResources UP-TO-DATE
+[        ] > Task :connectivity:compileReleaseRenderscript NO-SOURCE
+[        ] > Task :connectivity:generateReleaseResValues UP-TO-DATE
+[        ] > Task :connectivity:generateReleaseResources UP-TO-DATE
+[        ] > Task :connectivity:packageReleaseResources UP-TO-DATE
+[        ] > Task :flutter_blue:compileReleaseRenderscript NO-SOURCE
+[        ] > Task :flutter_blue:generateReleaseResValues UP-TO-DATE
+[        ] > Task :flutter_blue:generateReleaseResources UP-TO-DATE
+[        ] > Task :flutter_blue:packageReleaseResources UP-TO-DATE
+[  +56 ms] > Task :app:mergeReleaseResources UP-TO-DATE
+[        ] > Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+[        ] > Task :app:extractDeepLinksRelease UP-TO-DATE
+[        ] > Task :connectivity:extractDeepLinksRelease UP-TO-DATE
+[        ] > Task :connectivity:processReleaseManifest UP-TO-DATE
+[        ] > Task :flutter_blue:extractDeepLinksRelease UP-TO-DATE
+[        ] > Task :flutter_blue:processReleaseManifest UP-TO-DATE
+[        ] > Task :app:processReleaseMainManifest UP-TO-DATE
+[        ] > Task :app:processReleaseManifest UP-TO-DATE
+[        ] > Task :app:processReleaseManifestForPackage UP-TO-DATE
+[        ] > Task :connectivity:parseReleaseLocalResources UP-TO-DATE
+[        ] > Task :connectivity:generateReleaseRFile UP-TO-DATE
+[        ] > Task :flutter_blue:parseReleaseLocalResources UP-TO-DATE
+[        ] > Task :flutter_blue:generateReleaseRFile UP-TO-DATE
+[ +199 ms] > Task :app:processReleaseResources FAILED
+[        ] Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+[        ] Use '--warning-mode all' to show the individual deprecation warnings.
+[        ] See https://docs.gradle.org/6.7/userguide/command_line_interface.html#sec:command_line_warnings
+[        ] 35 actionable tasks: 5 executed, 30 up-to-date
+[ +411 ms] Running Gradle task 'assembleRelease'... (completed in 3.4s)
+[   +2 ms] The build failed likely due to AndroidX incompatibilities in a plugin. The tool is about to try using Jetifier to solve the incompatibility.
+[   +6 ms] Building plugin connectivity...
+[   +5 ms] Running Gradle task 'assembleAarRelease'...
+[   +2 ms] Using gradle from /Users/kenclements/tools/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-3.0.2/android/gradlew.
+[        ] /Users/kenclements/tools/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-3.0.2/android/gradlew mode: 33261 rwxr-xr-x.
+[   +1 ms] executing: [/Users/kenclements/tools/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-3.0.2/android/] /Users/kenclements/tools/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-3.0.2/android/gradlew -I=/Users/kenclements/tools/flutter/packages/flutter_tools/gradle/aar_init_script.gradle -Pflutter-root=/Users/kenclements/tools/flutter -Poutput-dir=/Users/kenclements/Flutter/ble/build/app -Pis-plugin=true -PbuildNumber=1.0 -Pverbose=true -Pfont-subset=true -Ptarget-platform=android-arm,android-arm64,android-x64 assembleAarRelease
+[ +728 ms] 
+           FAILURE: Build failed with an exception.
+
+           * What went wrong:
+           Task 'assembleAarRelease' not found in root project 'connectivity'.
+
+           * Try:
+           Run gradlew tasks to get a list of available tasks. Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+           * Get more help at https://help.gradle.org
+
+           BUILD FAILED in 594ms
+[   +1 ms] Running Gradle task 'assembleAarRelease'... (completed in 732ms)
+[   +5 ms] "flutter apk" took 5,631ms.
+[  +46 ms] ensureAnalyticsSent: 45ms
+[   +2 ms] Running shutdown hooks
+[        ] Shutdown hooks complete
+[        ] exiting with code 1
